@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portofolio | Miftahul Munir Risqullah</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <nav>
+            <h1>Portofolio Miftahul M. Risqullah</h1>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#project">Proyek</a></li>
+                <li><a href="#about">Tentang saya</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="hero">
+            <h1>Helloo, <span>Saya Miftahul Munir Risqullah</span> </h1>
+            <p>Web Developer | Programmer | Desain</p>
+            <button onclick="scrollToContact()">Hubungi saya</button>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Tentang saya</h2>
+            <p>Saya adalah Web Developer yang masih amatir</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Beberapa proyek yang telah saya kerjakan</p>
+
+            <div class="project-list">
+                <div class="card">
+                    <h3>Project 1</h3>
+                    <p>Website e-commerce sederhana menggunakan HTML, CSS, dan JavaScript</p>
+                </div>
+                <div class="card">
+                    <h3>Project 2</h3>
+                    <p>Aplikasi manajemen tugas berbasis web dengan fitur CRUD </p>
+                </div>
+                <div class="card">
+                    <h3>Project 3</h3>
+                    <p>Blog pribadi dengan sistem autentifikasi menggunakan Django dan PostgreSQL</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Kontak saya</h2>
+
+            <form id="contactForm">
+                <input type="text" placeholder="Masukkan Nama" required/>
+                <input type="email" placeholder="Masukkan Email" required/>
+                <textarea placeholder="Tulis Pesan Anda" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+
+            <p id="message" class="message"></p>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Miftahul M Risqullah. All rights reversed.</p>
+        </footer>
+    </body>
+    <script src="./tess.js"></script>
+</html>
